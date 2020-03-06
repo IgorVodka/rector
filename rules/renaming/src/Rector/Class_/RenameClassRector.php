@@ -189,7 +189,7 @@ PHP
             return new Name($newName);
         }
 
-        return new FullyQualified($newName);
+        return new Name($newName);
     }
 
     private function refactorNamespaceNode(Namespace_ $namespace): ?Node
